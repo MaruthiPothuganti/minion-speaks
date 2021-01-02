@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minion Talks</title>
+    <style>
+        textarea{ 
+            width: 90%;
+            height: 10vh;
+            display: block;
+             margin: 1rem;
+            padding: 1rem;
+        }
+
+        #output{
+            border: 1px solid black;
+            width: 90%;
+            height: 10vh;
+            display: block;
+             margin: 1rem;
+            padding: 1rem;
+
+        }
+    </style>
 </head>
 <body>
-    <h1>The Banana Language</h1>
+    <h1 class="header">The Banana Language</h1>
+    <textarea id="txt-input" placeholder="Type your text here"></textarea>
+    <button id="btn-translate">Translate</button>
+    <div style="font-size: larger;">Output will be shown below.../ </div>
+    <div id="output"></div>
+    <script src="app.js" type="text/javascript"></script>
     
 </body>
 </html>

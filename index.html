@@ -4,57 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minion Talks</title>
-    <style>
-        textarea{ 
-            width: 90%;
-            height: 10vh;
-            display: block;
-             margin: 1rem;
-            padding: 1rem;
-        }
-
-        #output{
-            border: 1px solid black;
-            width: 90%;
-            height: 10vh;
-            display: block;
-             margin: 1rem;
-            padding: 1rem;
-
-        }
-        
-        .header{
-            box-sizing: border-box;
-            background-color: gold;
-            color: rgb(4, 155, 4);
-            padding: 1rem;
-            text-align: center;
-            font-family: 'Roboto Mono', monospace;
-            margin: 0px;
-        }
-        
-        #btn-translate{
-            background-color: gold;
-            padding: 0.5rem 1rem;
-            border-radius: 0.5rem;
-            text-align: center;
-            
-        }
-
-        #output{
-            font-family: 'Roboto Mono', monospace;
-
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
    
 </head>
 <body>
-    <h1 class="header">The Banana Language</h1>
-    <textarea id="txt-input" placeholder="Type your text here"></textarea>
-    <button id="btn-translate">Translate</button>
-    <div style="font-size: larger;">Output will be shown below.../ </div>
-    <div id="output"></div>
+    <nav class="nav">
+        <div class="header">The Banana Language</div>
+    </nav>
+    <main>
+        <textarea id="txt-input" placeholder="Type your text here"></textarea>
+    
+   
+         <button id="btn-translate">Translate</button>
+   
+        <div style="font-weight: bold; font-family: 'Roboto Mono', monospace; ">Output will be shown below...🍌 </div>
+   
+        <div id="output"></div>
+    </main>
+   
+    <footer class="footer">
+        <h3 class="heading">About</h3>
+        <p>Do you want to speak the minion's language. Translate english into Minions language by the above translator</p>
+        <small>mobla wat ern ❤️ </small>
+    </footer>
+   
     <script src="app.js" type="text/javascript"></script>
     
 </body>

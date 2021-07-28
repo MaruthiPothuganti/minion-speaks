@@ -1,27 +1,27 @@
-
-
-textarea{ 
-    width: 90%;
-    height: 10vh;
-    display: block;
-     margin: 1rem;
-    padding: 1rem;
+body {
+    margin: 0%;
 }
 
-#output{
-    border: 1px solid black;
+textarea {
     width: 90%;
-    height: 10vh;
+    height: 15vh;
     display: block;
     margin: 1rem;
     padding: 1rem;
-
-}
-.nav{
-    background-color: gold;
 }
 
-.header{
+#output {
+    border: 1px solid black;
+    width: 90%;
+    height: 15vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.nav {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     background-color: gold;
     color: rgb(4, 155, 4);
     padding: 2rem;
@@ -30,27 +30,34 @@ textarea{
     font-style: italic;
     font-size: x-large;
     font-weight: bold;
-
+    border-bottom-right-radius: 5px;
 }
-
 
 #btn-translate {
     background-color: gold;
     padding: 0.5rem 1rem;
-    
-    
+    border-radius: 5px;
+    margin-left: 45%;
 }
 
-.footer{
-    bottom: 0;
+h3 {
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.footer {
     background-color: gold;
     padding: 1rem;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;
-    margin: auto;
+    margin: 0%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
-.footer .heading{
+.footer .heading {
     font-style: oblique;
 }

@@ -1,7 +1,5 @@
 body {
     margin: 0%;
-    /*background-image: linear-gradient(44deg, #fcd34d 46%, #F6F0CF 46%, #F6F0CF 50%, #fcd34d 50%, #fcd34d 96%, #F6F0CF 96%, #F6F0CF 100%);
-    //background-size: 359.89px 347.54px;*/
     background-color: #fcd34d;
     overflow: auto;
 }
